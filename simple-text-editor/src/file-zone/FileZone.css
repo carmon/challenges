@@ -1,0 +1,39 @@
+#file-zone {
+    background-color:#f1f0f0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+#file {
+    width: 600px;
+    flex-grow: 1;
+    background-color: #fff;
+    border: 1px solid #e4dede;
+}
+
+#text {
+    margin: 5% 5%;
+    width: 90%;
+    height: 90%;
+    border: none;
+    resize: none;
+}
+
+#word-container {
+    float: left;
+}
+
+#word.bold {
+    font-weight: bold;
+}
+
+#word.italic {
+    font-style: italic;
+}
+
+#word.underline {
+    text-decoration: underline;
+}

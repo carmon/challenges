@@ -1,0 +1,92 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: lightgray;
+  height: 100vh;
+}
+
+.prompt-container {
+  background-color: white;
+  line-height: 50px;
+  padding: 0 10px 0 10px;
+  max-height: 50px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.prompt-container::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.prompt-container input {
+  border: none;
+}
+
+.prompt-container div {
+  display: inline-block;
+  border: none;
+  outline: none;
+  width: 100px;
+}
+
+
+.submitted {
+  border-radius: 5px;
+  padding: 5px 2.5px;
+  font-weight: bold;
+  user-select: none;
+  cursor: default;
+}
+
+.submitted:hover {
+  background-color: lightgray;
+}
+
+.error {
+  background-color: rgb(214, 121, 121) !important;
+}
+
+.submitted.error button, .submitted:hover button {
+  visibility: visible;
+}
+
+.submitted button {
+  padding-right: 1px;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.submitted button:focus {
+  outline: none;
+}
+
+.prompt-container input:focus {
+  outline: none;
+}
+
+.list-container {
+  /* position: absolute; */
+  background-color: white;
+  width: 300px;
+  max-height: 250px;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+
+.option {
+  user-select: none;
+  cursor: default;
+  margin: 0 5px;
+  line-height: 45px;
+  height: 45px;
+}
+
+.option:hover {
+  background-color: lightskyblue;
+}

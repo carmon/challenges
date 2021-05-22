@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "start": "nodemon ./dist/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

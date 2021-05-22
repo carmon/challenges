@@ -1,0 +1,21 @@
+header {
+  display: block;
+  height: 40px;
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 24px;
+  border-bottom: 4px solid #ffa500;
+  background-color: rgba(33,33,33,0.5);
+  color: #fff;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
